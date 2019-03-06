@@ -21,18 +21,18 @@ function checkTime(i) {
 
 function randomImg() {
     var myPics = [
-            "surfPika.png",
-            "senjougahara.png",
-            "vanilla.png",
-            "fateSaber.png",
-            "firesister.png",
-            "froppy.png",
-            "konaSuba.png",
-            "nozomi.png",
-            "qtGirl.png",
-            "shinobu.png",
-            "whitePiano.png",
-            "yuigahama.png"
+            "surfPika.webp",
+            "senjougahara.webp",
+            "vanilla.webp",
+            "fateSaber.webp",
+            "firesister.webp",
+            "froppy.webp",
+            "konaSuba.webp",
+            "nozomi.webp",
+            "qtGirl.webp",
+            "shinobu.webp",
+            "whitePiano.webp",
+            "yuigahama.webp"
     ],
     randomNumber = myPics[Math.floor(Math.random() * myPics.length)];
     document.getElementById("waifu").src = "img/" + randomNumber;
