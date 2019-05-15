@@ -1,0 +1,112 @@
+@font-face {
+	font-family: 'haxr';
+	src: url('resources/haxrcorpttf.ttf');
+}
+
+html {
+	background-color: #151515;
+	background: url('resources/kissshot.webp');
+	color: #ffffff;
+	background-size: 100%;
+}
+
+body {
+	font-family: 'haxr';
+	font-size: 20px;
+}
+
+.general {
+	margin: 0 auto;
+	background-color: #ffffff;
+	width: 400px;
+	height: 80px;
+	border-left: solid #a9e2f3 10px;
+	transition: .2s;
+}
+
+	.general:hover {
+		border-left: solid #a9e2f3 20px;
+}
+
+.anime {
+	margin: 0 auto;
+	background-color: #ffffff;
+	width: 400px;
+	height: 80px;
+	border-left: solid #a9f5a9 10px;
+	transition: .2s;
+}
+
+	.anime:hover {
+		border-left: solid #a9f5a9 20px;
+}
+
+.social {
+	margin: 0 auto;
+	background-color: #FFF;
+	width: 400px;
+	height: 80px;
+	border-left: solid #F5D0A9 10px;
+	transition: .2s;
+}
+
+	.social:hover {
+		border-left: solid #F5D0A9 20px;
+}
+
+.email {
+	margin: 0 auto;
+	background-color: #ffffff;
+	width: 400px;
+	height: 80px;
+	border-left: solid #d8cef6 10px;
+	transition: .2s;
+}
+
+	.email:hover {
+		border-left: solid #d8cef6 20px;
+}
+
+.misc {
+	margin: 0 auto;
+	background-color: #ffffff;
+	width: 400px;
+	height: 80px;
+	border-left: solid #ff6961 10px;
+	transition: .2s;
+}
+
+	.misc:hover {
+		border-left: solid #ff6961 20px;
+	}
+
+.title {
+	color: #ffffff;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 22px;
+	margin: auto;
+	width: 90px;
+}
+
+.sub {
+	padding-left: 12px;
+	padding-top: 5px;
+	color: #848484;
+}
+
+a {
+	padding-left: 16px;
+	text-decoration: none;
+	color: #f8e0f7;
+	transition: .2s;
+	outline: 0;
+}
+
+.alink {
+	color: #000000;
+}
+
+	a:hover {
+		color: #848484;
+}
