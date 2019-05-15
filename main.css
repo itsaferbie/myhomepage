@@ -4,10 +4,13 @@
 }
 
 html {
-	background-color: #151515;
-	background: url('resources/kissshot.webp');
+    background-color: #151515;
+    background: url('resources/kissshot.webp');
 	color: #ffffff;
-	background-size: 100%;
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-position-x: right;
+	height: 100%;
 }
 
 body {
